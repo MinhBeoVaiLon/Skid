@@ -1,0 +1,36 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Frame.Position = UDim2.new(0.0327455923, 0, 0.0261044186, 0)
+Frame.Size = UDim2.new(0, 208, 0, 401)
+Frame.Active = true
+Frame.Draggable = true
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(124, 124, 124)
+TextButton.Position = UDim2.new(0.0327455923, 0, 0.0261044186, 0)
+TextButton.Size = UDim2.new(0, 208, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Me May Beo"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+ImageButton.Parent = ScreenGui
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.Position = UDim2.new(0.217884138, 0, 0.0261044186, 0)
+ImageButton.Size = UDim2.new(0, 61, 0, 50)
+ImageButton.Image = "http://www.roblox.com/asset/?id=11399166896"
